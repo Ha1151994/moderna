@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>task</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container ">
+            <div class="nav-bar">
+                <nav class="navbar navbar-expand-sm p-1 bg-light border border-5 fixed-top ">
+                    <!-- Brand -->
+                    <a class="navbar-brand pl-5 mt-1 text-primary" href="#">MODERNA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="main"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="material-icons text-primary" style="font-size:36px">view_headline</i>               
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                        <!-- Links -->
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item ">
+                                <a class="nav-link pl-lg-5 text-dark" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link pl-lg-4 text-primary" href="#">About</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link pl-lg-4 text-primary" href="#">Service</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link pl-lg-4 text-primary" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link pl-lg-4 text-primary" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pl-lg-4 text-primary" href="#">Blog</a>
+                            </li>
+
+
+                            <!-- Dropdown -->
+
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle pl-lg-4 text-primary" href="#" data-bs-toggle="dropdown">
+                                    pages
+                                </a>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item text-primary" href="#">team 1</a>
+                                    <a class="dropdown-item text-primary" href="#">team 2</a>
+                                    <a>
+                                        <hr class="dropdown-divider">
+                                    </a>
+                                    <a class="dropdown-item text-primary" href="#">team 3</a>
+                                    <a class="dropdown-item text-primary" href="#">team 4</a>
+                                    <a class="dropdown-item text-primary" href="#">team 5</a>
+                                    <a class="dropdown-item text-primary" href="#">team 6</a>
+                                    <a class="dropdown-item text-primary" href="#">team 7</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-1">
+                            <input class="form-control d-none d-lg-block" type="text" placeholder="Search">
+                            <button class="btn btn-primary d-none d-lg-block" type="button">Search</button>
+                        </form>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary mt-1 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Login
+                        </button>
+                </nav>
+            </div>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary text-white">
+                            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                    <label class="form-check-label" for="flexSwitchCheckChecked">Toggle me</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal footer -->
+        </div>
+
+
+
+        <section id="hero" class="d-flex justify-cntent-center align-items-center">
+
+            <div id="heroCarousel" class="carousel carousel-caption slide" data-bs-ride="carousel" style="bottom: auto;">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="carousel-container">
+                            <h2>Welcome to <span>Moderna</span></h2>
+                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
+                                aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+                                repellendus
+                                deleniti vel. Minus et tempore modi architecto.</p>
+                            <button type="button" class="btn btn-outline-primary">Read More</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <h2>Lorem Ipsum Dolor</h2>
+                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
+                                aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+                                repellendus
+                                deleniti vel. Minus et tempore modi architecto.</p>
+                            <button type="button" class="btn btn-outline-primary">Read More</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="carousel-container">
+                            <h2>Sequi ea ut et est quaerat</h2>
+                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut
+                                aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
+                                repellendus
+                                deleniti vel. Minus et tempore modi architecto.</p>
+                            <button type="button" class="btn btn-outline-primary">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+
+        </section>
+
+        <div class="container ">
+            <div class="jumbotron">
+                <h4>Features</h4>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                    aliquid
+                    fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
+                    suscipit
+                    alias
+                    ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <a href="#" class="btn btn-primary ">See Profile</a>
+
+            </div>
+        </div>
+
+        <div class="container mt-3">
+            <h2 class="text-primary text-center">Popular Destinations In Moderna</h2>
+            <div id="accordion">
+                <div class="card mt-4" style="background: RGB(13,39,53)">
+                    <div class="card-header">
+                        <a class="collapsed btn text-light" data-bs-toggle="collapse" href="#collapseOne">
+                            Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show " data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium.
+                            Aliquam et
+                            laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem
+                            doloremque
+                            deleniti aperiam unde soluta.
+                            Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis
+                            dolore.
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background: RGB(13,39,53)">
+                    <div class="card-header">
+                        <a class="collapsed btn text-light" data-bs-toggle="collapse" href="#collapseTwo">
+                            Nisi magni odit consequatur autem nulla dolorem
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum
+                            et.
+                            Quo libero
+                            rerum voluptatem pariatur nam. Ad impedit qui officiis est in non aliquid veniam laborum. Id
+                            ipsum qui aut.
+                            Sit aliquam et quia molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid
+                            excepturi
+                            molestiae.
+                            Facilis et sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos
+                            distinctio.
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="background: RGB(13,39,53)">
+                    <div class="card-header">
+                        <a class="collapsed btn text-light" data-bs-toggle="collapse" href="#collapseThree">
+                            Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.
+                        </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem
+                            labore
+                            omnis et.
+                            Eum temporibus fugiat voluptate enim tenetur sunt omnis. Doloremque est saepe laborum aut.
+                            Ipsa
+                            cupiditate
+                            ex harum at recusandae nesciunt. Ut dolores velit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 Search shadow">
+            <h2 class="paragraph text-light" style="text-align: center; background: RGB(13,39,53)">Translate From Arabic
+                To
+                English</h2>
+            <p>Write And translate<strong>Press Here:</strong></p>
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+                Submit
+            </button>
+
+
+
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Hadel@gmail.com</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            The text has been copied
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                    <label for="comment">Comments:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="translate"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="container mt-5 Search shadow " style="background: RGB(13,39,53)">
+            <h2 class="paragraph text-primary" style="text-align: center;">Translate From Arabic To Frensh</h2>
+            <p class="text-light">Write And translate<strong>Press Here:</strong></p>
+            <a href="javascript:void(0)" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+                    Submit
+                </button>
+            </a>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Hadel@gmail.com</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            The text has been copied
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                    <label for="comment">Comments:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="translate"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="container mt-5 Search shadow">
+            <h2 class="paragraph text-light" style="text-align: center; background: RGB(13,39,53)">Translate From Arabic
+                To
+                German</h2>
+            <p>Write And translate<strong>Press Here:</strong></p>
+            <a href="javascript:void(0)" title="Header" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Popover text">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+                    Submit
+                </button>
+            </a>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Hadel@gmail.com</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            The text has been copied
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                    <label for="comment">Comments:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text" placeholder="translate"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="container image mt-5 mb-5">
+            <div class="row mt-5 mb-5 pt-5 pb-5 ">
+                <div class="col">
+                    <div class="" style="width:200px">
+                        <div class="text-light mt-4 text-center">
+                            <h4 class="card-title">203</h4>
+                            <p class="card-text">Clients</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="" style="width:200px">
+                        <div class="text-light mt-4 text-center">
+                            <h4 class="card-title">521</h4>
+                            <p class="card-text">Projects</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="" style="width:200px">
+                        <div class="text-light mt-4 text-center">
+                            <h4 class="card-title">1463</h4>
+                            <p class="card-text">Hours Of Support</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="" style="width:200px">
+                        <div class="text-light mt-4 text-center">
+                            <h4 class="card-title">15</h4>
+                            <p class="card-text">Hard Workers</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="paragraph text-primary" style="text-align: center;">Our Team</h2>
+        </div>
+
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 col-md-4 col-lg-4  mt-3 ">
+                    <div class="card persons" style=" background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-1.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Walter White</h4>
+                            <p class="card-text text-muted">Animi est delectus alias quam repellendus nihil nobis dolor.
+                                Est sapiente
+                                occaecati et
+                                dolore. Omnis aut ut nesciunt explicabo qui.
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4  mt-3 ">
+                    <div class="card persons" style=" background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-2.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Sarah Jhonson</h4>
+                            <p class="card-text text-muted">Aspernatur iste esse aliquam enim et corporis. Molestiae
+                                voluptatem aut
+                                eligendi quis
+                                aut.
+                                Libero vel amet voluptatem </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+                    <div class="card persons" style=" background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-3.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title ">William Anderson</h4>
+                            <p class="card-text text-muted">Ut enim possimus nihil cupiditate beatae. Veniam facere quae
+                                non qui
+                                necessitatibus rerum
+                                eos vero.
+                                Maxime sit sunt quo dolor. </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4  mt-3 ">
+                    <div class="card persons" style="background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-4.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Amanda Jepson</h4>
+                            <p class="card-text text-muted">Sint qui cupiditate. Asperiores fugit impedit aspernatur et
+                                mollitia.
+                                Molestiae qui
+                                placeat labore assumenda id qui nesciunt quo reprehenderit.
+                                Rem dolores similique quis soluta culpa enim .</p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4  mt-3 ">
+                    <div class="card persons" style="background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-5.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Niall Katz</h4>
+                            <p class="card-text text-muted">Aut ex esse explicabo quia harum ea accusamus excepturi.
+                                Temporibus at quia
+                                quisquam
+                                veritatis impedit. Porro laborum voluptatum sed necessitatibus a saepe. Deserunt laborum
+                                quasi consequatur
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4  mt-3">
+                    <div class="card persons" style=" background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-6.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Demi Lewis</h4>
+                            <p class="card-text text-muted">Amet labore numquam corrupti est. Nostrum amet voluptas
+                                consectetur dolor
+                                voluptatem
+                                architecto distinctio consequuntur eligendi. Quam impedit enim aut nesciunt aut dicta
+                                quam.
+                            </p>
+                            <a href="#" class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class=" col-sm-12 col-md-4 col-lg-4  mt-3">
+                    <div class="card persons" style=" background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-1.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">William Anderson</h4>
+                            <p class="card-text text-muted">Ut enim possimus nihil cupiditate beatae. Veniam facere quae
+                                non qui
+                                necessitatibus rerum
+                                eos vero.
+                                Maxime sit sunt quo dolor autem est qui quaerat aliquid. Tenetur</p>
+                            <a href="#" class="btn btn-primary ">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4"></div>
+
+                <div class=" col-sm-12 col-md-4 col-lg-4 mt-3">
+                    <div class="card  persons" style=" background-color: RGB(13,39,53);">
+                        <img class="card-img-top" src="images/team-3.jpg" alt="Card image">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Walter White</h4>
+                            <p class="card-text text-muted">Animi est delectus alias quam repellendus nihil nobis dolor.
+                                Est sapiente
+                                occaecati et
+                                dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis repudiandae
+                                perferendis qui.
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container image  mt-5">
+            <div class="row border rounded border-primary bg-dark text-light shadow-lg mt-5 mb-5 ">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <br><br>
+                    <p class="text-center ">
+                        Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore
+                        magna aliqua.<br>
+
+                        <i class="material-icons mt-3 mr-1 text-primary" style="font-size:10px">done</i><small> Ullamco
+                            laboris
+                            nisi ut
+                            aliquip ex ea commodo.</small><br>
+                        <i class="material-icons mr-1 text-primary" style="font-size:10px">done</i><small> Duis aute
+                            irure
+                            dolor
+                            in
+                            reprehenderit in voluptate velit.</small>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <iframe class="mt-5 ml-5 border rounded-pill border-primary" width="280" height="160"
+                            src="https://www.youtube.com/embed/CYXKi2XF5pM" title="Office work background video"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="paragraph text-primary mt-5" style="text-align: center;">Our service</h2>
+        </div>
+
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 mt-2">
+                    <div class="card img-fluid docoration ">
+                        <img class="card-img-top imageover" src="images/service-details-1.jpg" alt="Card image"
+                             style="width:100%; height:100%; opacity: 0.8;">
+                        <div class="card-body text-primary">
+                            <div class="card-title ">
+                                <h4 class="card-title">Our Mission</h4>
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et
+                                        dolore
+                                        magna
+                                        aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                    <div class="read-more">
+                                        <a href="#" class="btn btn-outline-primary ">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6 mt-2">
+                    <div class="card img-fluid docoration ">
+                        <img class="card-img-top imageover" src="images/service-details-2.jpg" alt="Card image"
+                             style="width:100%; height:100%; opacity:0.8;">
+                        <div class="card-body text-primary">
+                            <div class="card-title ">
+                                <h4 class="card-title">Our Plan</h4>
+                                <div class="card-text">
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque
+                                        laudantium,
+                                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                        architecto
+                                        beatae
+                                        vitae dicta sunt explicabo
+                                    </p>
+                                    <div class="read-more">
+                                        <a href="#" class="btn btn-outline-primary ">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 mt-2">
+                    <div class="card img-fluid docoration ">
+                        <img class="card-img-top" src="images/service-details-3.jpg" alt="Card image"
+                             style="width:100%; height:100%; opacity: 0.8;">
+                        <div class="card-body text-primary">
+                            <div class="card-title ">
+                                <h4 class="card-title">Our Vision</h4>
+                                <div class="card-text">
+                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit,
+                                        sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro
+                                        quisquam est,
+                                        qui dolorem ipsum quia dolor sit amet</p>
+                                    <div class="read-more">
+                                        <a href="#" class="btn btn-outline-primary ">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-2">
+                    <div class="card img-fluid docoration ">
+                        <img class="card-img-top imageover" src="images/service-details-4.jpg" alt="Card image"
+                             style="width:100%; height:100%; opacity: 0.8;">
+                        <div class="card-body text-primary ">
+                            <div class="card-title ">
+                                <h4 class="card-title">Our Care</h4>
+                                <div class="card-text">
+                                    <p>Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium
+                                        voluptatem.
+                                        In molestiae earum ab sit esse voluptatem.
+                                        Eos ipsam cumque ipsum officiis qui nihil aut incidunt</p>
+                                    <div class="read-more">
+                                        <a href="#" class="btn btn-outline-primary ">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row border border-primary ">
+                <div class="col-md-8 col-lg-8 col-sm-12 ">
+                    <h3 class="card-title mt-2 ml-3 ">Corporis temporibus maiores provident
+                    </h3>
+                    <div class="bg-primary mt-3" style="width:100%; height: 1px;"></div>
+                    <div class="cardbody d-flex justify-content-between mr-5 mt-3 ml-2 ">
+                        <div class=" d-flex">
+                            <i class="material-icons">person_outline</i>
+                            <h6 class="card-title ml-3">John Doe</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">alarm</i>
+                            <h6 class="card-title ml-3">Jan 1, 2020</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <h6 class="card-title ml-3">12 Comments</h6>
+                        </div>
+                    </div>
+
+                    <p class="ml-3 mt-2">Corporis temporibus maiores provident
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua.
+                        <br>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla
+                        pariatur.
+                        <br> Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2"> Read More</button>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <img src="images/features-2.svg" class="img-fluid img-zoom-in" alt="Cinque Terre"
+                         style="height:100%;">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row" style="background-color: RGB(13,39,53);">
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <img src="images/features-3.svg" class="img-fluid rounded-pill img-zoom-in" alt="Cinque Terre"
+                         style="height:100%;">
+                </div>
+                <div class="col-md-8 col-lg-8 ">
+                    <h3 class="card-title  mt-2 ml-3 text-light ">
+                        Sunt consequatur ad ut est nulla consectetur </h3>
+                    <div class="bg-primary mt-3" style="width:100%; height: 1px;"></div>
+
+                    <div class="cardbody d-flex justify-content-between mr-5 mt-3 ml-2 text-light ">
+                        <div class=" d-flex">
+                            <i class="material-icons">person_outline</i>
+                            <h6 class="card-title ml-3">John Doe</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">alarm</i>
+                            <h6 class="card-title ml-3">Jan 1, 2020</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <h6 class="card-title ml-3">12 Comments</h6>
+                        </div>
+                    </div>
+                    <p class="ml-3 mt-2 text-light">Cupiditate placeat cupiditate placeat est ipsam culpa.Delectus quia
+                        minima
+                        quod.
+                        <br>
+                        Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.
+                        <br>
+                        <i class="material-icons mr-1 text-primary" style="font-size:10px">done</i><small>Ullamco
+                            laboris
+                            nisi ut
+                            aliquip ex ea commodo consequat.</small>
+                        <br>
+                        <i class="material-icons mr-1 text-primary" style="font-size:10px">done</i><small>Duis aute
+                            irure
+                            dolor in
+                            reprehenderit in voluptate velit.</small>
+                        <br>
+                        <i class="material-icons mr-1 text-primary" style="font-size:10px">done</i> <small>ut et
+                            voluptatem
+                            aperiam.
+                            Autem soluta ad fugiat.</small>
+                    </p>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2 bg-light text-primary"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2 bg-light text-primary"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2 bg-light text-primary"> Read More</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row border border-primary  ">
+                <div class="col-md-8 col-lg-8 col-sm-12">
+                    <h3 class="card-title mt-2 ml-3 ">Quas et necessitatibus eaque impedit ipsum animi
+                    </h3>
+                    <div class="bg-primary mt-3" style="width:100%; height: 1px;"></div>
+                    <div class="cardbody d-flex justify-content-between mr-5 mt-3 ml-2 ">
+                        <div class=" d-flex">
+                            <i class="material-icons">person_outline</i>
+                            <h6 class="card-title ml-3">John Doe</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">alarm</i>
+                            <h6 class="card-title ml-3">Jan 1, 2020</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons mt-1">chat_bubble_outline</i>
+                            <h6 class="card-title ml-3">12 Comments</h6>
+                        </div>
+                    </div>
+                    <p class="ml-3 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua.<br>
+
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident,
+                        sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 mt-2"> Read More</button>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <img src="images/features-4.svg" class="img-fluid rounded-pill img-zoom-in" alt="Cinque Terre"
+                         style="height:100%;">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row" style="background-color: RGB(13,39,53);">
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <img src="images/features-1.svg" class="img-fluid img-zoom-in" alt="Cinque Terre"
+                         style="height:100%;">
+                </div>
+                <div class="col-md-8 col-lg-8 ">
+                    <h3 class="card-title mt-2 ml-3 text-light">
+                        Voluptatem dignissimos provident quasi corporis.</h3>
+                    <div class="bg-primary mt-3" style="width:100%; height: 1px;"></div>
+
+                    <div class="cardbody d-flex justify-content-between mr-5 mt-3 ml-2 text-light ">
+                        <div class=" d-flex">
+                            <i class="material-icons">person_outline</i>
+                            <h6 class="card-title ml-3">John Doe</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">alarm</i>
+                            <h6 class="card-title ml-3">Jan 1, 2020</h6>
+                        </div>
+                        <div class="d-flex">
+                            <i class="material-icons">chat_bubble_outline</i>
+                            <h6 class="card-title ml-3">12 Comments</h6>
+                        </div>
+                    </div>
+                    <p class="ml-3 mt-2 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                        corrupti
+                        voluptatibus amet officiis nisi error, vel eligendi. Nobis corrupti, animi nulla velit sapiente,
+                        exercitationem libero modi optio sequi, repellendus quam.
+                        <br> <i class="material-icons mr-1 text-primary" style="font-size:10px">done</i><small>laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</small>
+                        <br><i class="material-icons mr-1 text-primary" style="font-size:10px">done</i><small>Duis aute
+                            irure dolor
+                            in reprehenderit in voluptate velit.</small>
+
+                    </p>
+                    <button class="btn btn-primary ml-3 mb-4 bg-light text-primary"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 bg-light text-primary"> Read More</button>
+                    <button class="btn btn-primary ml-3 mb-4 bg-light text-primary"> Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-3 Search">
+            <h2 class="paragraph text-primary" style="text-align: center;">Textarea</h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 mt-2">
+                    <div class="card  border rounded border-primary" style="background-color: RGB(13,39,53);">
+                        <div class="card-body text-center card-department">
+                            <h4 class="card-title ">Lorem Ipsum</h4>
+                            <i class="material-icons rounded-circle"
+                               style="font-size:48px;color:#ff689b; background-color:#fceef3; width:25%;">language</i>
+                            <p class="card-title text-left">Voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias excepturi
+                                sint occaecati cupiditate </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 mt-2">
+                    <div class="card  border rounded border-primary " style="background-color: RGB(13,39,53);">
+                        <div class="card-body text-center card-department">
+                            <h4 class="card-title">Sed ut perspiciatis</h4>
+                            <i class="material-icons rounded-circle "
+                               style="font-size:48px;color:#3fcdc7; background-color:#e6fdfc; width:25%;">assignment</i>
+                            <p class="card-title text-left">Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa
+                                qui officia
+                                deserunt mollit anim id est laborum</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 mt-2 ">
+                    <div class="card border rounded border-primary" style="background-color: RGB(13,39,53);">
+                        <div class="card-body text-center card-department">
+                            <h4 class="card-title text-center">Magni Dolores</h4>
+                            <i class="material-icons rounded-circle"
+                               style="font-size:48px;color:#41cf2e; background: #e6fdfc; width:25%;">query_builder</i>
+                            <p class="card-title text-left">Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse
+                                cillum dolore
+                                eu fugiat nulla pariatur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 mt-2 ">
+                    <div class="card border rounded border-primary" style="background-color: RGB(13,39,53);">
+                        <div class="card-body text-center card-department">
+                            <h4 class="card-title">Nemo Enim </h4>
+                            <i class="material-icons bg-primary rounded-circle"
+                               style="font-size:48px;color:#e1eeff; width:25%;">language</i>
+
+                            <p class="card-title text-left">At vero eos et accusamus et iusto odio dignissimos ducimus
+                                qui
+                                blanditiis
+                                praesentium voluptatum </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container text-primary pt-3 mt-5 border rounded border-primary"
+                 style="background: RGB(13,39,53)">
+                <div class="mt-5">
+                    <h3 class="text-center fw-bold text-light">want to patrtener with us</h3>
+                    <p class="text-center text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                        Mollitia
+                        dolorum
+                        cupiditate nobis molestiae deserunt fugiat illo autem sint, <br>odit cumque nostrum itaque
+                        laudantium officia,
+                        corrupti expedita minima architecto soluta ullam.</p>
+                </div>
+                <div class="row justify-content-around text-center text-md-start">
+                    <div class="col-md-3">
+                        <ul class="list-unstyled text-center ">
+                            <li class="list-unstyled text-center"><img src="images/chicago.jpg" class="rounded-circle"
+                                                                       alt="Cinque Terre" width="104" height="100">
+                            </li>
+                            <li>
+                                <hr class="bg-primary" />
+                            </li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Useful
+                                    Links</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Home</a>
+                            </li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>About
+                                    Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Services</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Terms of
+                                    service</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Privacy
+                                    policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled text-center">
+                            <li class="list-unstyled text-center"><img src="images/chicago.jpg" class="rounded-circle"
+                                                                       alt="Cinque Terre" width="104" height="100">
+                            </li>
+                            <li>
+                                <hr class="bg-primary">
+                            </li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Our
+                                    Services</a></li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Web
+                                    Design</a></li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Web
+                                    Development</a></li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Product
+                                    Management </a></li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Marketing</a></li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Graphic
+                                    Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="list-unstyled text-center">
+                            <li class="list-unstyled text-center"><img src="images/chicago.jpg" class="rounded-circle"
+                                                                       alt="Cinque Terre" width="104" height="100">
+                            </li>
+                            <li>
+                                <hr class="bg-primary">
+                            </li>
+                            <li><a href="#" class="text-decoration-none text-light "><i
+                                        class="material-icons">chevron_right</i>Contact
+                                    Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>A108 Adam
+                                    Street</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>New York,
+                                    NY 535022
+                                    United States</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Phone: +1
+                                    5589 55488 55</a></li>
+                            <li><a href="#" class="text-decoration-none text-light"><i
+                                        class="material-icons">chevron_right</i>Email:
+                                    info@example.com</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mt-5 ">
+                        <div class="list-unstyled d-flex justify-cntent-center justify-content-md-start ml-5">
+                            <h4 class="fw-bold my-2 list-unstyled text-light text-center mt-3 ">About Moderna</h4>
+                        </div>
+                        <hr class="bg-primary" />
+
+                        <div class="text">
+                            <p class="text-light mt-4">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+                                nada
+                                terra videa magna
+                                derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                        </div>
+                        <div class=" d-flex justify-content-center ">
+                            <a href=""> <i class="material-icons mt-3 rounded-circle "
+                                           style="font-size:36px;color:#ff689b; background: #e6fdfc;">settings_phone</i></a>
+                            <a href=""> <i class="material-icons mt-3 rounded-circle "
+                                           style="font-size:36px;color:#41cf2e; background: #e6fdfc;">assignment</i></a>
+                            <a href=""> <i class="material-icons mt-3  rounded-circle"
+                                           style="font-size:36px;color:#41cf2e; background: #e6fdfc;">language</i></a>
+                            <a href=""> <i class="material-icons mt-3  bg-primary rounded-circle"
+                                           style="font-size:36px;color:#e1eeff;">query_builder</i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-primary" />
+                <div class="row">
+                    <div class="col-md-12 text-center pt-2 ">
+                        <p>@COPY; 2022 COPYRIGHT <a href="#" class="text-light">the providers</a> </p>
+                    </div>
+                </div>
+                <hr class="bg-primary" />
+            </div>
+        </div>
+
+        <div class="icon-bar text-center text-light p-5">
+            <a href="#" class="linkedin d-block bg-light border border-primary"><i class="fa fa-linkedin text-primary"
+                                                                                   style="font-size:35px;"></i></a>
+            <a href="#" class="youtube d-block bg-light border border-danger mt-3"><i
+                    class="fa fa-youtube-play text-danger" style="font-size:40px;"></i></a>
+            <a href="#" class="facebook d-block bg-light border border-primary mt-3"><i
+                    class="fa fa-facebook text-primary " style="font-size:35px;"></i></a>
+            <a href="#" class="whatsapp d-block bg-light border border-success mt-3"><i
+                    class="fa fa-whatsapp text-success" style="font-size:40px;"></i></a>
+            <a href="#" class="twitter d-block bg-light border border-primary mt-3"><i
+                    class="fa fa-twitter text-primary" style="font-size:35px;"></i></a>
+
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    </body>
+
+</html>
